@@ -29,13 +29,3 @@ Accomplishments
 * Outstanding Doctoral Student, Zhejiang University, 2022 and 2023
 * 2nd prize of 14th China Post-graduate Mathematical Contest in Modeling, 2017
 * Outstanding Graduate, Anhui University, 2017
-
-Publications
-======
-  <ul>{% for post in site.publications reversed%}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-
-
-
