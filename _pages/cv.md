@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 * B.S. in Automation, Anhui University, 2013-2017
-* M.S. in Control Science and Control Engeneering, Southeast University, 2017-2020
-* Ph.D in Control Science and Control Engeneering, Zhejiang University, 2020-2024 (expected)
+* M.S. in Control Science and Control Engineering, Southeast University, 2017-2020
+* Ph.D in Control Science and Control Engineering, Zhejiang University, 2020-2024
 
 Exchange
 ======
@@ -25,7 +25,8 @@ Exchange
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  {% assign sorted_publications = site.publications | sort: "date" | reverse %}
+  <ul>{% for post in sorted_publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
